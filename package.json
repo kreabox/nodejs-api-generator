@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-api-generator",
+  "version": "1.0.0",
+  "description": "A Simple APi Generator Using Express And Express Http Proxy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreabox/nodejs-api-generator.git"
+  },
+  "author": "veris juniardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kreabox/nodejs-api-generator/issues"
+  },
+  "homepage": "https://github.com/kreabox/nodejs-api-generator#readme",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-http-proxy": "^2.0.0",
+    "express-proxy": "^0.0.2",
+    "mysql": "^2.18.1",
+    "rimraf": "^5.0.1",
+    "util": "^0.12.5"
+  }
+}

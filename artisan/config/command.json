@@ -1,0 +1,15 @@
+{
+    "parent" : [
+        "make",
+        "remove",
+        "run",
+        "help",
+        "clear"
+    ],
+    "child" : [
+        "module",
+        "service",
+        "model",
+        "middleware"
+    ]
+}

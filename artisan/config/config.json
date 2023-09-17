@@ -1,0 +1,54 @@
+{
+    "command" : [
+        {
+            "name": "make:module",
+            "description" : "Generate module",
+            "arguments" : [
+                {
+                    "name" : "module",
+                    "description" : "Module name"
+                }
+            ]
+        },
+        {
+            "name" : "make:service",
+            "description" : "Generate service",
+            "arguments" : [
+                {
+                    "name" : "module",
+                    "description" : "Module name"
+                },
+                {
+                    "name" : "port",
+                    "description" : "Port number"
+                }
+            ]
+        },
+        {
+            "name" : "make:database",
+            "description" : "Generate database connector",
+            "arguments" : [
+                {
+                    "name" : "module",
+                    "description" : "Module name"
+                },
+                {
+                    "name" : "host",
+                    "description" : "Host"
+                },
+                {
+                    "name" : "user",
+                    "description" : "User"
+                },
+                {
+                    "name" : "password",
+                    "description" : "Password"
+                },
+                {
+                    "name" : "database",
+                    "description" : "Database name"
+                }
+            ]
+        }
+    ]
+}
